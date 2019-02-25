@@ -209,8 +209,8 @@ where
 }
 
 pub struct ServerMethod {
-    pub(crate) name: String,
-    pub(crate) dispatch: Box<MethodHandlerDispatch + Sync + Send>,
+    pub name: String,
+    pub dispatch: Box<MethodHandlerDispatch + Sync + Send>,
 }
 
 impl ServerMethod {
